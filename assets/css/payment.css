@@ -1,0 +1,4 @@
+.payment-validation {
+    color: red;
+    display: none; /* Initially hide the "*" markers */
+  }
