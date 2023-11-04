@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {    
-  const baseURL = 'http://localhost:3005';
+  const baseURL = 'https://cbr-be.jssish.com:443';
     const abstractSubmitButton = document.getElementById("abstract-submit");
     const fullPaperSubmitButton = document.getElementById("fullpaper-submit");
     const responseMessage = document.getElementById("paper-response-message");

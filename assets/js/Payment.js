@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    const baseURL = 'http://localhost:3005';
+    const baseURL = 'https://cbr-be.jssish.com:443';
     const form = document.getElementById("payment-form");
     const submitButton = document.getElementById("payment-submit");
     const validationElements = document.querySelectorAll(".payment-validation");

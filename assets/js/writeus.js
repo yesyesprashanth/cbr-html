@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const baseURL = 'http://localhost:3005';
+    const baseURL = 'https://cbr-be.jssish.com:443';
     const form = document.getElementById("write-form");
     const submitButton = document.getElementById("write-submit");
     const responseMessage = document.getElementById("feedback-response");
