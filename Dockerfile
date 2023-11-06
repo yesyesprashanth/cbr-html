@@ -5,4 +5,4 @@ FROM nginx:latest
 COPY ./ /usr/share/nginx/html/
 
 # Expose port 3003
-EXPOSE 3003
+EXPOSE 80

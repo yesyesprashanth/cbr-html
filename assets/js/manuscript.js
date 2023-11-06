@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (response.ok) {
           const responseMessage = await response.json();
           displayResponseMessage(responseMessage);          
-          clearData(0);
+          clearData(1);
         } else {
           console.error('Failed to submit full paper');
         }
